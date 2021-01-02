@@ -1,10 +1,14 @@
+/*
+ * @Author: Your name
+ * @Date:   2021-01-02 21:38:11
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2021-01-02 21:38:16
+ */
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
 
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  render: h => h(App)
+    render: h => h(App)
 }).$mount('#app')
